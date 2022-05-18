@@ -41,7 +41,7 @@ CREATE TABLE `employee` (
 
 LOCK TABLES `employee` WRITE;
 /*!40000 ALTER TABLE `employee` DISABLE KEYS */;
-INSERT INTO `employee` VALUES (2,'Hyderabad, Telangana','IT','System Engineer','sri@mail.com','Srinadh Virivada',8765432345,300000);
+INSERT INTO `employee` VALUES (2,'Hyderabad, Telangana','IT','System Engineer','sri@mail.com','Srinadh Virivada',8765432345,300000),(3,'Pune','Engineer','Senior Engineer','dileep@mail.com','Dileep',8765445678,40000),(4,'Mumbai','Engineer','Associate Engineer','sai@mail.com','Sai',9865445670,35000),(5,'Mumbai','Engineer','Associate Engineer','kiran@mail.com','Kiran',9876543456,45000),(6,'Chennai','Engineer','Associate Engineer','ravi@mail.com','Ravi',85345699876,30000),(7,'Chennai','Engineer','Associate Engineer','john@mail.com','John',8534569996,50000);
 /*!40000 ALTER TABLE `employee` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -63,7 +63,7 @@ CREATE TABLE `hibernate_sequence` (
 
 LOCK TABLES `hibernate_sequence` WRITE;
 /*!40000 ALTER TABLE `hibernate_sequence` DISABLE KEYS */;
-INSERT INTO `hibernate_sequence` VALUES (3);
+INSERT INTO `hibernate_sequence` VALUES (8);
 /*!40000 ALTER TABLE `hibernate_sequence` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -76,4 +76,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-05-18 13:27:09
+-- Dump completed on 2022-05-18 13:36:27
