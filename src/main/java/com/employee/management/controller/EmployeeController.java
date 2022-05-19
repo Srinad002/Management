@@ -34,6 +34,11 @@ public class EmployeeController {
         return  employeeService.getEmployeeByName(name);
     }
 
+    @GetMapping("/getAll")
+    public List<Employee> getAllEmployees(){
+        return employeeService.getAllEmployees();
+    }
+
     @PutMapping("/id/{id}")
     public Employee updateEmployee(@RequestBody Employee employee, @PathVariable int id){
         return employeeService.updateEmployee(employee, id);
