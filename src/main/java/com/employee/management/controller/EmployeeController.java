@@ -20,7 +20,7 @@ public class EmployeeController {
     }
 
     @PostMapping("/addAll")
-    public List<Employee> addAllEmployees(List<Employee> employees){
+    public List<Employee> addAllEmployees(@RequestBody List<Employee> employees){
         return employeeService.addAllEmployees(employees);
     }
 
